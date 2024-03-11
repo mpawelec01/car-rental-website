@@ -24,7 +24,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] max-auto border-b border-b-[#ADB7BE]   bg-transparent bg-opacity-100">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] max-auto border-b border-b-[#ADB7BE]   bg-opacity-100">
       <div className="flex container flex-wrap items-center justify-between mx-auto px-4 py-3">
         <Link
           href={"/"}
