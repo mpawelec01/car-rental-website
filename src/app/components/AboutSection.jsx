@@ -10,7 +10,7 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2  gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div
           style={{
-            background: `url('/images/about-car.jpg')`,
+            background: `url('./images/about-car.jpg')`,
             backgroundSize: "cover",
             width: "100%",
             height: "500px",
@@ -70,7 +70,7 @@ const AboutSection = () => {
         </div>
         <div
           style={{
-            background: `url('/images/about-car2.jpg')`,
+            background: `url('./images/about-car2.jpg')`,
             backgroundSize: "cover",
             width: "100%",
             height: "500px",
