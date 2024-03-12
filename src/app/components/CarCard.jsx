@@ -13,6 +13,7 @@ const CarCard = ({ brand, photo, hp, acceleration, engine, price, tags }) => {
           background: `url(${photo})`,
           backgroundSize: "cover",
           height: "240px",
+          backgroundPosition: "center",
         }}
       ></div>
       <ul className="flex flex-center gap-5 my-3 items-center justify-center">

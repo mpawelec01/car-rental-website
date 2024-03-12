@@ -9,9 +9,8 @@ const HeroSection = () => {
           background: "url(./images/911-hero.jpg)",
           backgroundSize: "cover",
           width: "100%",
-          height: "600px",
+          height: "800px",
           backgroundPosition: "center",
-          marginTop: "70px",
         }}
         className="flex flex-center items-center justify-center "
       >

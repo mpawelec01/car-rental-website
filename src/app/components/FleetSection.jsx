@@ -8,7 +8,7 @@ const carsInfo = [
   {
     id: 1,
     brand: "Aston martin",
-    photo: "/images/car1.jpg",
+    photo: "./images/car1.jpg",
     hp: "xxx",
     acceleration: "##",
     engine: "xyz",
@@ -18,7 +18,7 @@ const carsInfo = [
   {
     id: 2,
     brand: "Audi",
-    photo: "/images/car2.jpg",
+    photo: "./images/car2.jpg",
     hp: "xxx",
     acceleration: "##",
     engine: "xyz",
@@ -28,7 +28,7 @@ const carsInfo = [
   {
     id: 3,
     brand: "BMW",
-    photo: "/images/car3.jpg",
+    photo: "./images/car3.jpg",
     hp: "xxx",
     acceleration: "##",
     engine: "xyz",
@@ -38,7 +38,7 @@ const carsInfo = [
   {
     id: 4,
     brand: "Ferrari",
-    photo: "/images/car4.jpg",
+    photo: "./images/car4.jpg",
     hp: "xxx",
     acceleration: "##",
     engine: "xyz",
@@ -48,7 +48,7 @@ const carsInfo = [
   {
     id: 5,
     brand: "Lamborghini",
-    photo: "/images/car5.jpg",
+    photo: "./images/car5.jpg",
     hp: "xxx",
     acceleration: "##",
     engine: "xyz",
@@ -58,7 +58,7 @@ const carsInfo = [
   {
     id: 6,
     brand: "Porsche",
-    photo: "/images/car6.jpg",
+    photo: "./images/car6.jpg",
     hp: "xxx",
     acceleration: "##",
     engine: "xyz",
@@ -68,7 +68,7 @@ const carsInfo = [
   {
     id: 7,
     brand: "Bentley",
-    photo: "/images/car7.jpg",
+    photo: "./images/car7.jpg",
     hp: "xxx",
     acceleration: "##",
     engine: "xyz",
@@ -78,7 +78,7 @@ const carsInfo = [
   {
     id: 8,
     brand: "Mercedes",
-    photo: "/images/car8.jpg",
+    photo: "./images/car8.jpg",
     hp: "xxx",
     acceleration: "##",
     engine: "xyz",
@@ -88,7 +88,7 @@ const carsInfo = [
   {
     id: 9,
     brand: "Rolls royce",
-    photo: "/images/car9.jpg",
+    photo: "./images/car9.jpg",
     hp: "xxx",
     acceleration: "##",
     engine: "xyz",

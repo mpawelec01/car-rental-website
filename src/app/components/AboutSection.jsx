@@ -13,14 +13,15 @@ const AboutSection = () => {
             background: `url('./images/about-car.jpg')`,
             backgroundSize: "cover",
             width: "100%",
-            height: "500px",
+            height: "300px",
+            backgroundPosition: "center",
           }}
           className="rounded-xl"
         ></div>
-        <div className="border border-white rounded-xl p-4 mt-4 md:mt-0 text-left flex flex-col h-full">
-          <div className="text-base  lg:text-lg">
+        <div className="border border-white md:pb-8 max-h-[300px] overflow-auto rounded-xl p-4 mt-4 md:mt-0 text-left flex flex-col h-full">
+          <div className="text-base   lg:text-lg">
             <h2 className="text-4xl font-bold text-white mb-4">Example</h2>
-            <p>
+            <p className="">
               {" "}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -43,7 +44,7 @@ const AboutSection = () => {
             </p>
           </div>
         </div>
-        <div className="border border-white rounded-xl p-4 mt-4 md:mt-0 text-left flex flex-col h-full">
+        <div className="border border-white md:pb-8 max-h-[300px] overflow-auto  rounded-xl p-4 mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Example</h2>
           <div className="text-base  lg:text-lg">
             <p>
@@ -73,9 +74,10 @@ const AboutSection = () => {
             background: `url('./images/about-car2.jpg')`,
             backgroundSize: "cover",
             width: "100%",
-            height: "500px",
+            height: "300px",
+            backgroundPosition: "center",
           }}
-          className="rounded-xl"
+          className="rounded-xl md:mt-0 sm:mt-5"
         ></div>
       </div>
     </section>
